@@ -41,7 +41,7 @@ const changeCase = () => {
       xz = allKeys[j].childNodes;
       for (let g = 0; g < xz.length; g += 1) {
         xz[g].classList.add('hidden');
-      }
+      
     }
   }
   for (let i = 0; i < keys.length; i += 1) {
