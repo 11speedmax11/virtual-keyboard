@@ -41,7 +41,7 @@ const changeCase = () => {
       xz = allKeys[j].childNodes;
       for (let g = 0; g < xz.length; g += 1) {
         xz[g].classList.add('hidden');
-      
+      }
     }
   }
   for (let i = 0; i < keys.length; i += 1) {
@@ -265,11 +265,11 @@ rowInnerUPEng = ['CapsLock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', `
 containRow();
 
 row = document.createElement('div');
-rowInnerClass = ['ShiftLeft', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Comma', 'Period', 'Slash', 'ArrowUp', 'ShiftRight'];
-rowInner = ['Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#129145;', 'Shift'];
-rowInnerUP = ['Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', '.', '&#129145;', 'Shift'];
-rowInnerEng = ['Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#129145;', 'Shift'];
-rowInnerUPEng = ['Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', '&#129145;', 'Shift'];
+rowInnerClass = ['ShiftLeft', 'KeyLeft', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Comma', 'Period', 'Slash', 'ArrowUp', 'ShiftRight'];
+rowInner = ['Shift', '.','я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#129145;', 'Shift'];
+rowInnerUP = ['Shift', ',', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '&#129145;', 'Shift'];
+rowInnerEng = ['Shift', '/', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#129145;', 'Shift'];
+rowInnerUPEng = ['Shift', '?', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', '&#129145;', 'Shift'];
 
 containRow();
 
